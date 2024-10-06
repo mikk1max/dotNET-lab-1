@@ -1,0 +1,15 @@
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/bin/Debug/net8.0/dotNET-lab-1
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/bin/Debug/net8.0/dotNET-lab-1.deps.json
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/bin/Debug/net8.0/dotNET-lab-1.runtimeconfig.json
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/bin/Debug/net8.0/dotNET-lab-1.dll
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/bin/Debug/net8.0/dotNET-lab-1.pdb
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/dotNET-lab-1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/dotNET-lab-1.AssemblyInfoInputs.cache
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/dotNET-lab-1.AssemblyInfo.cs
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/dotNET-lab-1.csproj.CoreCompileInputs.cache
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/dotNET-lab-1.sourcelink.json
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/dotNET-lab-1.dll
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/refint/dotNET-lab-1.dll
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/dotNET-lab-1.pdb
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/dotNET-lab-1.genruntimeconfig.cache
+/Users/mikki_max/Documents/GitHub/dotNET-lab-1/obj/Debug/net8.0/ref/dotNET-lab-1.dll
