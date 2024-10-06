@@ -31,7 +31,7 @@ string[] inputLines = File.ReadAllLines("input.txt");
 
 while (!result)
 {
-    var value = rand.Next(1, 10);
+    var value = rand.Next(1, 100);
     Console.WriteLine("Guess a number between 1 and 100:");
     // int guess = Convert.ToInt32(Console.ReadLine());
     int guess = Convert.ToInt32(inputLines[0]);
