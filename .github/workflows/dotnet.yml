@@ -2,31 +2,30 @@ name: .NET Build, Test, and Run
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
-
     runs-on: self-hosted
 
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 8.0.x
+      - uses: actions/checkout@v4
 
-    - name: Restore dependencies
-      run: dotnet restore
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
 
-    - name: Build
-      run: dotnet build --no-restore
+      - name: Restore dependencies
+        run: dotnet restore
 
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      - name: Build
+        run: dotnet build --no-restore
 
-    - name: Run .NET Console App
-      run: dotnet run --project ./...
+      - name: Test
+        run: dotnet test --no-build --verbosity normal
+
+      - name: Run .NET Console App with input
+        run: dotnet run --project ./dotNET-lab-1.csproj 69

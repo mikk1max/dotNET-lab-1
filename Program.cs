@@ -27,11 +27,14 @@ var rand = new Random();
 bool result = false;
 int quantityOfTries = 0;
 
+string[] inputLines = File.ReadAllLines("input.txt");
+
 while (!result)
 {
     var value = rand.Next(1, 10);
     Console.WriteLine("Guess a number between 1 and 100:");
-    int guess = Convert.ToInt32(Console.ReadLine());
+    // int guess = Convert.ToInt32(Console.ReadLine());
+    int guess = Convert.ToInt32(inputLines[0]);
 
     if (!(guess >= 1 && guess <= 100))
     {
@@ -52,7 +55,8 @@ while (!result)
             Console.WriteLine("You tried " + quantityOfTries);
             Console.WriteLine("Write your name: ");
 
-            string userName = Console.ReadLine();
+            // string userName = Console.ReadLine();
+            string userName = inputLines[1];
 
             var hs = new HighScore { Name = "Unknown", Trials = quantityOfTries };
 
