@@ -1,6 +1,3 @@
-# This workflow will build, test, and run a .NET project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
 name: .NET Build, Test, and Run
 
 on:
@@ -32,4 +29,4 @@ jobs:
       run: dotnet test --no-build --verbosity normal
 
     - name: Run .NET Console App
-      run: dotnet run --project ./dotNET-lab-1/Program.cs
+      run: dotnet run --project ./dotNET-lab-1/dotNET-lab-1.csproj
