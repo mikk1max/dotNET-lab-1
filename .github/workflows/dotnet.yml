@@ -28,4 +28,4 @@ jobs:
         run: dotnet test --no-build --verbosity normal
 
       - name: Run .NET Console App with input
-        run: dotnet run --project ./dotNET-lab-1.csproj 66
+        run: dotnet run --project ./dotNET-lab-1.csproj

@@ -27,14 +27,14 @@ var rand = new Random();
 bool result = false;
 int quantityOfTries = 0;
 
-string[] inputLines = File.ReadAllLines("input.txt");
+string[] inputLines = File.ReadAllLines("input.txt"); // optional: for gitHub workflow test
 
 while (!result)
 {
     var value = rand.Next(1, 100);
     Console.WriteLine("Guess a number between 1 and 100:");
     // int guess = Convert.ToInt32(Console.ReadLine());
-    int guess = Convert.ToInt32(inputLines[0]);
+    int guess = Convert.ToInt32(inputLines[0]); // optional: for gitHub workflow test
 
     if (!(guess >= 1 && guess <= 100))
     {
@@ -56,7 +56,7 @@ while (!result)
             Console.WriteLine("Write your name: ");
 
             // string userName = Console.ReadLine();
-            string userName = inputLines[1];
+            string userName = inputLines[1]; // optional: for gitHub workflow test
 
             var hs = new HighScore { Name = "Unknown", Trials = quantityOfTries };
 

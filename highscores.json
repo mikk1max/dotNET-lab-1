@@ -1,1 +1,12 @@
-[{"Name":"Max She","Trials":1},{"Name":"mikkiMAX","Trials":1},{"Name":"Hero-Man","Trials":2},{"Name":"MaX","Trials":4},{"Name":"LOL","Trials":5},{"Name":"Max","Trials":7},{"Name":"Tom Ford","Trials":7},{"Name":"Unknown","Trials":12},{"Name":"MAXIMUS","Trials":13},{"Name":"Unknown","Trials":13},{"Name":"Unknown","Trials":17},{"Name":"MAKSYM","Trials":19},{"Name":"Shake","Trials":24}]
+[
+  { "Name": "Max She", "Trials": 1 },
+  { "Name": "mikkiMAX", "Trials": 1 },
+  { "Name": "Hero-Man", "Trials": 2 },
+  { "Name": "MaX", "Trials": 4 },
+  { "Name": "LOL", "Trials": 5 },
+  { "Name": "Tom Ford", "Trials": 7 },
+  { "Name": "MAXIMUS", "Trials": 13 },
+  { "Name": "Unknown", "Trials": 13 },
+  { "Name": "MAKSYM", "Trials": 19 },
+  { "Name": "Shake", "Trials": 24 }
+]
