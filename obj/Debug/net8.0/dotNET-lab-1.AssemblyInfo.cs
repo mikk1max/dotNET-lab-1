@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotNET-lab-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9775b8904a2adfe7e3b04daff03d028299db45c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f144838a420c61e91dcc4b8c6c4b2f59d8fc6328")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotNET-lab-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotNET-lab-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
