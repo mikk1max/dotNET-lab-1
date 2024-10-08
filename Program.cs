@@ -33,7 +33,7 @@ while (!result)
 {
     var value = rand.Next(1, 100);
     Console.WriteLine("Guess a number between 1 and 100:");
-    // int guess = Convert.ToInt32(Console.ReadLine());
+    // int guess = Convert.ToInt32(Console.ReadLine()); // uncomment for testing locally
     int guess = Convert.ToInt32(inputLines[0]); // optional: for gitHub workflow test
 
     if (!(guess >= 1 && guess <= 100))
@@ -55,7 +55,7 @@ while (!result)
             Console.WriteLine("You tried " + quantityOfTries);
             Console.WriteLine("Write your name: ");
 
-            // string userName = Console.ReadLine();
+            // string userName = Console.ReadLine(); // uncomment for testing locally
             string userName = inputLines[1]; // optional: for gitHub workflow test
 
             var hs = new HighScore { Name = "Unknown", Trials = quantityOfTries };
